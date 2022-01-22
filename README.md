@@ -1,8 +1,7 @@
 # arkadia-loot-gathering
 
 Plugin do [Arkadia Skryptow](https://github.com/tjurczyk/arkadia) udostepniajacy jedna komende: /ob_ciala
-![img.png](img.png)
-
+![img_1.png](img_1.png)
 # instalacja
 
 ```
