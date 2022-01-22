@@ -6,5 +6,5 @@ Plugin do [Arkadia Skryptow](https://github.com/tjurczyk/arkadia) udostepniajacy
 # instalacja
 
 ```
-/zainstaluj_plugin https://codeload.github.com/papajuras/arkadia-loot-gathering/zip/master
+/zainstaluj_plugin https://codeload.github.com/papajuras/arkadia-loot-gathering/zip/main
 ```
