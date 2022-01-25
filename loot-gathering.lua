@@ -28,7 +28,7 @@ function LootGathering.show_loot()
     local lootWithLinks = {}
     for body_index, body in pairs(LootGathering.bodies) do
         for _, loot in pairs(body) do
-            local command = "wez " .. loot .. " z " .. scripts.id_to_string_biernik[body_index] .. " ciala"
+            local command = "wez " .. loot .. " z " .. LootGathering.id_to_string_biernik[body_index] .. " ciala"
             -- echoLink("[ " .. "WEZ" .. " ]", function () send(command) end, "wez")
             -- cecho(" " .. loot .. "\n")
             table.insert(lootWithLinks, {command=command, name=loot})
@@ -140,4 +140,47 @@ LootGathering.id_to_biernik = {
     [8] = "osme",
     [9] = "dziewiate",
     [10] = "dziesiate",
+}
+
+LootGathering.id_to_string_biernik = {
+    [1] = "pierwszego",
+    [2] = "drugiego",
+    [3] = "trzeciego",
+    [4] = "czwartego",
+    [5] = "piatego",
+    [6] = "szostego",
+    [7] = "siodmego",
+    [8] = "osmego",
+    [9] = "dziewiatego",
+    [10] = "dziesiatego",
+    [11] = "jedenastego",
+    [12] = "dwunastego",
+    [13] = "trzynastego",
+    [14] = "czternastego",
+    [15] = "pietnastego",
+    [16] = "szesnastego",
+    [17] = "siedemnastego",
+    [18] = "osiemnastego",
+    [19] = "dziewietnastego",
+    [20] = "dwudziestego",
+    [21] = "dwudziestego pierwszego",
+    [22] = "dwudziestego drugiego",
+    [23] = "dwudziestego trzeciego",
+    [24] = "dwudziestego czwartego",
+    [25] = "dwudziestego piatego",
+    [26] = "dwudziestego szostego",
+    [27] = "dwudziestego siodmego",
+    [28] = "dwudziestego osmego",
+    [29] = "dwudziestego dziewiatego",
+    [30] = "trzydziestego",
+    [31] = "trzydziestego pierwszego",
+    [32] = "trzydziestego drugiego",
+    [33] = "trzydziestego trzeciego",
+    [34] = "trzydziestego czwartego",
+    [35] = "trzydziestego piatego",
+    [36] = "trzydziestego szostego",
+    [37] = "trzydziestego siodmego",
+    [38] = "trzydziestego osmego",
+    [39] = "trzydziestego dziewiatego",
+    [40] = "czterdziestego",
 }
